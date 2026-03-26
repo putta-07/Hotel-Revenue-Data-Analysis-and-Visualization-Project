@@ -42,11 +42,11 @@ Key Metrics:
 
 • Customer Clustering: Developed logic to categorize guests:
 
-• First-Timer: < 5000 Revenue and 1 booking.
+    • First-Timer: < 5000 Revenue and 1 booking.
 
-• Loyal Guest: < 15000 Revenue and >= 3 bookings.
+    • Loyal Guest: < 15000 Revenue and >= 3 bookings.
 
-• High Spender: >= 15000 Revenue.
+    • High Spender: >= 15000 Revenue.
 
 • RFM Scoring: Preliminary columns for Frequency, Spend, and Recency scores.
 

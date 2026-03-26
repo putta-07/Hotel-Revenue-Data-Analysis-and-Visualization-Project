@@ -6,15 +6,15 @@ This project provides a comprehensive end-to-end analysis of hotel revenue data.
 The analysis aims to help hotel managers understand booking trends, guest behavior, and financial performance across various branches and room types.
 
 ## Key Features
-Comprehensive Data Modeling: Implementation of a Star Schema for efficient reporting.
+1. Comprehensive Data Modeling: Implementation of a Star Schema for efficient reporting.
 
-Advanced DAX Calculations: Custom measures and columns for deep insights into revenue and guest segmentation.
+2. Advanced DAX Calculations: Custom measures and columns for deep insights into revenue and guest segmentation.
 
-Guest Analysis: Segmentation of customers into categories like "High Spenders" and "Loyal Guests" based on frequency and revenue.
+3. Guest Analysis: Segmentation of customers into categories like "High Spenders" and "Loyal Guests" based on frequency and revenue.
 
-Dynamic Visualizations: Interactive cards, line charts for trend analysis, and matrix tables for granular data exploration.
+4. Dynamic Visualizations: Interactive cards, line charts for trend analysis, and matrix tables for granular data exploration.
 
-Revenue Forecasting: Predictive analysis (built within the Power BI report) to estimate future booking trends.
+5. Revenue Forecasting: Predictive analysis (built within the Power BI report) to estimate future booking trends.
 
 ## Data Structure & Modules
 The project was developed in structured modules:
@@ -63,13 +63,13 @@ Power Query: For ETL (Extract, Transform, Load) processes.
 ## Dashboard Preview
 The dashboard includes:
 
-Summary Matrix: Performance breakdown by month.
+1. Summary Matrix: Performance breakdown by month.
 
-Trend Analysis: Line charts comparing ADR, RevPAR, and Occupancy % over time.
+2. Trend Analysis: Line charts comparing ADR, RevPAR, and Occupancy % over time.
 
-KPI Overview: High-level snapshots of total revenue and performance metrics.
+3. KPI Overview: High-level snapshots of total revenue and performance metrics.
 
-Forecasting Page: Visual projections of future revenue based on historical data.
+4. Forecasting Page: Visual projections of future revenue based on historical data.
 
 ## How to Use
 Clone this repository.

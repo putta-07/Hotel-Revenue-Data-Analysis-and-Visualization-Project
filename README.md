@@ -20,45 +20,45 @@ The analysis aims to help hotel managers understand booking trends, guest behavi
 The project was developed in structured modules:
 
 ### Module 1: Data Preparation & Star Schema
-Tables Created: Booking, Customer, Branch, RoomType, and Date.
+• Tables Created: Booking, Customer, Branch, RoomType, and Date.
 
-Transformation: Initial formatting and loading into Power BI to establish a Star Schema relationship.
+• Transformation: Initial formatting and loading into Power BI to establish a Star Schema relationship.
 
-Enhancements: Added StayType (Day Use, Short Stay, Extended Stay, Long Stay) and RoomNightSold logic.
+• Enhancements: Added StayType (Day Use, Short Stay, Extended Stay, Long Stay) and RoomNightSold logic.
 
 ### Module 2: Metric Definition (ADR & RevPAR)
 Key Metrics:
 
-ADR (Average Daily Rate): Calculated as Total Revenue / Room Night Sold.
+• ADR (Average Daily Rate): Calculated as Total Revenue / Room Night Sold.
 
-RevPAR (Revenue Per Available Room): Calculated as Total Revenue / Total Rooms Available.
+• RevPAR (Revenue Per Available Room): Calculated as Total Revenue / Total Rooms Available.
 
-Occupancy %: The ratio of sold rooms to available rooms.
+• Occupancy %: The ratio of sold rooms to available rooms.
 
-Visuals: Integrated KPI cards and trend lines to track these metrics over time.
+• Visuals: Integrated KPI cards and trend lines to track these metrics over time.
 
 ### Module 3: Advanced Guest Analytics
-Data Merging: Combined TblRates and Tbl_Bookings using Power Query.
+• Data Merging: Combined TblRates and Tbl_Bookings using Power Query.
 
-Customer Clustering: Developed logic to categorize guests:
+• Customer Clustering: Developed logic to categorize guests:
 
-First-Timer: < 5000 Revenue and 1 booking.
+• First-Timer: < 5000 Revenue and 1 booking.
 
-Loyal Guest: < 15000 Revenue and >= 3 bookings.
+• Loyal Guest: < 15000 Revenue and >= 3 bookings.
 
-High Spender: >= 15000 Revenue.
+• High Spender: >= 15000 Revenue.
 
-RFM Scoring: Preliminary columns for Frequency, Spend, and Recency scores.
+• RFM Scoring: Preliminary columns for Frequency, Spend, and Recency scores.
 
 ### Module 4: Forecasting
-Forcasting based on the data has been done
+• Forcasting based on the data has been done
 
 ## Technologies Used
-Power BI: For data modeling, DAX, and visualization.
+• Power BI: For data modeling, DAX, and visualization.
 
-Excel/CSV: Source data management.
+• Excel/CSV: Source data management.
 
-Power Query: For ETL (Extract, Transform, Load) processes.
+• Power Query: For ETL (Extract, Transform, Load) processes.
 
 ## Dashboard Preview
 The dashboard includes:
@@ -72,8 +72,8 @@ The dashboard includes:
 4. Forecasting Page: Visual projections of future revenue based on historical data.
 
 ## How to Use
-Clone this repository.
+1. Clone this repository.
 
-Ensure the CSV files are in the designated directory if you wish to refresh the data.
+2. Ensure the CSV files are in the designated directory if you wish to refresh the data.
 
-Open HotelRevDashboard.pbix in Power BI Desktop to explore the interactive report.
+3. Open HotelRevDashboard.pbix in Power BI Desktop to explore the interactive report.
